@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         nv_tab.setNaviga(map, new NavigationView.NavigaClick() {
             @Override
             public void onClick(int position) {
-                Toast.makeText(getApplicationContext(),"d:"+position,Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"选中索引:"+position,Toast.LENGTH_SHORT).show();
             }
         });
         AutoUtils.auto(this);

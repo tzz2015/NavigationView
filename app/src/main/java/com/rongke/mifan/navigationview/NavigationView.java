@@ -53,6 +53,8 @@ public class NavigationView extends LinearLayout {
             if (positon == 0) {
                 itemView.setSelected(true);
                 curreItemView = itemView;
+            }else {
+                itemView.setSelected(false);
             }
             final int finalPositon = positon;
             itemView.setOnClickListener(new OnClickListener() {
