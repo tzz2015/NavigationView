@@ -1,4 +1,4 @@
-"# NavigationView" 
+"# NavigationView"     </br>
 第一步在布局添加自定义view    </br>
   <com.rongke.mifan.navigationview.NavigationView  </br>
       android:id="@+id/nv_tab"  </br>
@@ -23,7 +23,8 @@
         }); </br>
         AutoUtils.auto(this); </br>
 
-    } </br>
+    }
+    </br>
     </br>
 
 
