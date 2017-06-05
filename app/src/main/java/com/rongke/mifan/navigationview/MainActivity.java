@@ -35,5 +35,8 @@ public class MainActivity extends AppCompatActivity {
         });
         AutoUtils.auto(this);
 
+
+        //未读数显示
+        nv_tab.setUnRead(0,2);
     }
 }

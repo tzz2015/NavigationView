@@ -82,6 +82,17 @@ public class NavigationView extends LinearLayout {
         invalidate();
     }
 
+    /**
+     * 设置未读数
+     */
+    public void setUnRead(int position ,int num){
+        if(position>ll_root.getChildCount()-1){
+            return;
+        }
+        NavigationItemView navigationItemView= (NavigationItemView) ll_root.getChildAt(position);
+        navigationItemView.setUnReadNum(num);
+    }
+
     public interface NavigaClick {
         void onClick(int position);
     }
